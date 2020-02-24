@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});
+    </script><script type="text/javascript">window.Beacon('init', 'b658cb70-c6ce-4a88-aa24-2a61f227e4ee')</script>
 </head>
 <body>
     <header class="page-header">
@@ -31,25 +33,10 @@
             </ul>
         </nav>
     </header>
-   <h1>Contact</h1>
-    <div>
-        London <br>
-        United Kingdom<br>
-        <br>
-        <a href="mailto:javier">javier@email.com</a><br>
-        <form action="" method="post" id="contact-form">
-            <label class="standard-label" for="contact-email">E-mail: </label>
-            <input type="email" id="contact-email"required>
-          
-            <label class="standard-label" for="contact-telephone">Telephone: </label>
-            <input type="tel" id="contact-telephone">
-          
-            <label class="standard-label" for="contact-text">Message: </label>
-            <textarea maxlength="1000" id="contact-text"required></textarea>
-          
-            <button type="button">Submit</button>
-        </form>
-    </div>
+    <section id="contact">
+        <h1>Contact</h1>
+                    <button type="button" id="beacon" onclick="return Beacon('toggle')">Click here to send me an email</button>
+    </section>
     <script src="js/tota11y.min.js"></script>
 </body>
 </html>

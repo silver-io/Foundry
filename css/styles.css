@@ -89,7 +89,7 @@ button:focus,
     color: #2b2b2b;
 }
 
-.profile, #about {
+.profile, #about, #contact {
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
